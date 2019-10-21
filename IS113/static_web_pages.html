@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head><title>The name of page</title></head>
+    <body>My First Page<br>
+        <!-- 1. LINK -->
+        This is a <a href = "http://www.smu.edu.com"> link</a> to go smu website<br> 
+        <!-- 2.directory -->
+        <a href = "./there is no file below">under the current directory</a><br>
+        <a href = "under the same file with current file">Under the same file with current file </a><br>
+        <a href = "../web crawl(start,9_28_2019)">parent directory</a><br>
+        <a href = "/IS113/static_web_pages.html">the first layer of files under the root</a><br>
+        <!-- 3.ID tag -->
+        <a href = "#a picture">Jump to a picture</a><br>
+        <a id = "a pictture">a picture</a><br>
+        <!-- 4.image -->
+        <img src = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.smu.edu.sg%2Fsites%2Fall%2Fthemes%2Fsmubase_nw2_rev%2Fsvg%2Flogo-t-smu.svg&imgrefurl=https%3A%2F%2Fwww.smu.edu.sg%2F&docid=ALa0EAk32gJmkM&tbnid=yGER_SYOilJ0wM%3A&vet=10ahUKEwiAzYrkwK3lAhWLQY8KHU2EALIQMwg-KAIwAg..i&w=800&h=429&bih=610&biw=1280&q=smu%20logo&ved=0ahUKEwiAzYrkwK3lAhWLQY8KHU2EALIQMwg-KAIwAg&iact=mrc&uact=8"
+        width = "250" height = "160"/><br>
+        <!-- 5.strong -->
+        <strong>strong</strong>
+        <h1>H1</h1>
+        <h2>H2</h2>
+        <!-- 6.form -->
+        <form action = "static_web_pages.html" method = "get">
+            <!-- 6.1 text -->
+            <input type = "text" name = "aname" value = "put your name" size = 20><br>
+            <!-- 6.2 password -->
+            <input type = "password" name = "pwd" size = 20><br>
+            <!-- 6.3 radio button & label-->
+            <input type = "radio" name = "color" value = "red" checked/>red
+            <input type = radio name = "color" value = "green" id= "c-g"><label for = "c-g">green</label>
+            <!-- 6.4 check box -->
+            <input type = "checkbox" name = "fruit[]" value = "apple" checked/>apple
+            <input type = "checkbox" name = "fruit[]" value = "banana"/> banana
+            <!-- 6.5 textarea -->
+            <textarea name = "comment" rows = "2" cols="10">Put your comments</textarea>
+            <!-- 6.6 select dropdown list -->
+            <select name = "faculty" size = "3" multiple>
+                <option value = "sis" selected>sis</option>
+                <option value = "sob">sob</option>
+                <option value="soe">soe</option>
+            </select>
+            <!-- 6.7 hidden field -->
+            <input type = "hidden" name = "language" value = "english"/>
+            <!-- 6.8 submit -->
+            <input type = "submit"/>
+            <!-- 6.9 -->
+            <input type = "reset"/>
+        </form>
+        <!-- 7. table -->
+        <table {border = 1px solid black}
+        th,td{border = 1px solid black;text-align:center}>
+            <tr>
+                <th>table head</th>
+                <th>table head</th>
+            </tr>
+            <tr>
+                <td colspan="2">colspan = 2</td>
+                <td>1</td>
+            </tr>
+            <tr><td>2</td></tr>
+            <tr>
+                <td rowspan="2">rowspan = 2</td>
+            </tr>
+        </table>
+    </body>
+</html>
