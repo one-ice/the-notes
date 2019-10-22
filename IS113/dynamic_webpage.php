@@ -12,5 +12,5 @@ $arr = array("London","Washington","the new york")
 $arr[] = "Shang Hai"
 // 4.get the size of array for forloop
 count($arr) 
-// 5.
+// 5. 
 ?>
